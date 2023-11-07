@@ -1,0 +1,32 @@
+
+body{
+    background-image: url("images/concert.jpg");
+    background-size: 1400px;
+    
+}
+
+/*main drum set div*/
+.drumset{
+    
+    position:absolute;
+    top:10px;
+    margin-top: 400px;
+    width: 99%;
+    height: 100px;
+}
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    opacity: 50%;
+    font-size: 60px;
+    text-align: center;
+    margin-left:75px;
+    border: 1px solid black;
+}
+.box:hover{
+    background-color: blue;
+    width: 108px;
+    height: 108px;
+}
